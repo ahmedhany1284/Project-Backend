@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "6641a5697b567596a1f9d775"
+  },
+  "username": "abo alaa",
+  "gender": "male",
+  "email": "alaa@gmail.com",
+  "password": "$2a$10$udIS1OWWZiaBfVsbjv0U6OXfNXxkJkmVRq5XVpzWT.Lsuaf/oyuxS",
+  "createdAt": {
+    "$date": "2024-05-13T05:30:17.517Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-13T05:30:17.517Z"
+  },
+  "__v": 0
+}]

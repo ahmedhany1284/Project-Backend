@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "6641adea831cdde40db69f49"
+  },
+  "name": "Chocolate Cake",
+  "price": 15.99,
+  "category": "dessert",
+  "description": "Rich and indulgent chocolate cake.",
+  "image": "https://example.com/chocolate-cake.jpg"
+},
+{
+  "_id": {
+    "$oid": "6641ae21831cdde40db69f4a"
+  },
+  "name": "Iced Coffee",
+  "price": 4.5,
+  "category": "drink",
+  "description": "Refreshing iced coffee served with ice cubes.",
+  "image": "https://example.com/iced-coffee.jpg"
+},
+{
+  "_id": {
+    "$oid": "6641ae3e831cdde40db69f4b"
+  },
+  "name": "Cheeseburger",
+  "price": 9.99,
+  "category": "food",
+  "description": "Juicy beef patty with melted cheese, lettuce, and tomato.",
+  "image": "https://example.com/cheeseburger.jpg"
+},
+{
+  "_id": {
+    "$oid": "6641ae64831cdde40db69f4c"
+  },
+  "name": "Green Tea",
+  "price": 2.99,
+  "category": "drink",
+  "description": "Healthy green tea with antioxidants.",
+  "image": "https://example.com/green-tea.jpg"
+}]

@@ -1,0 +1,121 @@
+[{
+  "_id": {
+    "$oid": "6641a99aafc33df199a0469a"
+  },
+  "name": "res1",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      11,
+      11
+    ]
+  },
+  "image": "url1",
+  "products": [
+    {
+      "$oid": "6641adea831cdde40db69f49"
+    },
+    {
+      "$oid": "6641ae3e831cdde40db69f4b"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-05-13T05:48:10.439Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-14T20:14:56.962Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "6641a9adafc33df199a0469c"
+  },
+  "name": "res2",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      12,
+      12
+    ]
+  },
+  "image": "url2",
+  "products": [],
+  "createdAt": {
+    "$date": "2024-05-13T05:48:29.955Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-13T05:48:29.955Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6641a9ceafc33df199a0469e"
+  },
+  "name": "res3",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      13,
+      13
+    ]
+  },
+  "image": "url3",
+  "products": [],
+  "createdAt": {
+    "$date": "2024-05-13T05:49:02.476Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-13T05:49:02.476Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6641a9fdafc33df199a046a0"
+  },
+  "name": "res4",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      14,
+      14
+    ]
+  },
+  "image": "url4",
+  "products": [],
+  "createdAt": {
+    "$date": "2024-05-13T05:49:49.233Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-13T05:49:49.233Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6641a9fdafc33df199a046a1"
+  },
+  "name": "res5",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      15,
+      15
+    ]
+  },
+  "image": "url5",
+  "products": [
+    {
+      "$oid": "6641adea831cdde40db69f49"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-05-13T05:49:49.233Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-14T20:19:27.571Z"
+  },
+  "__v": 1
+}]

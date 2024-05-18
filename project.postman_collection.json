@@ -1,0 +1,232 @@
+{
+	"info": {
+		"_postman_id": "c405d95e-6545-433f-9f25-d78dfe45421a",
+		"name": "project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "28432134"
+	},
+	"item": [
+		{
+			"name": "user",
+			"item": [
+				{
+					"name": "sign up",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\":\"abo alaa\",\r\n    \"gender\":\"male\",\r\n    \"email\":\"alaa@gmail.com\",\r\n    \"password\":\"pass1234\",\r\n    \"confirmPassword\": \"pass1234\"\r\n}\r\n\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:4000/users/signUp"
+					},
+					"response": []
+				},
+				{
+					"name": "sign in",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"alaa@gmail.com\",\r\n  \"password\": \"pass1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:4000/users/login"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "restaurant",
+			"item": [
+				{
+					"name": "get all restaurants",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "Route__eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NDFhNTY5N2I1Njc1OTZhMWY5ZDc3NSIsImVtYWlsIjoiYWxhYUBnbWFpbC5jb20iLCJpYXQiOjE3MTU1Nzg0MDMsImV4cCI6MTcxNTY2NDgwM30.zof93R3JcHGJNzqdDxtK3MsoKSsLAMw8b36Xrqmord8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:4000/restaurants/"
+					},
+					"response": []
+				},
+				{
+					"name": "get prodcuts at a restaurant",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "Route__eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NDFhNTY5N2I1Njc1OTZhMWY5ZDc3NSIsImVtYWlsIjoiYWxhYUBnbWFpbC5jb20iLCJpYXQiOjE3MTU1Nzg0MDMsImV4cCI6MTcxNTY2NDgwM30.zof93R3JcHGJNzqdDxtK3MsoKSsLAMw8b36Xrqmord8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Omar\",\r\n    \"email\":\"o@gmail.com\",\r\n    \"password\":\"u1\",\r\n    \"age\":18\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:4000/restaurants/6641a99aafc33df199a0469a/products"
+					},
+					"response": []
+				},
+				{
+					"name": "get a product",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "Route__eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NDFhNTY5N2I1Njc1OTZhMWY5ZDc3NSIsImVtYWlsIjoiYWxhYUBnbWFpbC5jb20iLCJpYXQiOjE3MTU1Nzg0MDMsImV4cCI6MTcxNTY2NDgwM30.zof93R3JcHGJNzqdDxtK3MsoKSsLAMw8b36Xrqmord8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Omar\",\r\n    \"email\":\"o@gmail.com\",\r\n    \"password\":\"u1\",\r\n    \"age\":18\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:4000/restaurants/products/6641ae21831cdde40db69f4a"
+					},
+					"response": []
+				},
+				{
+					"name": "search",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "Route__eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NDFhNTY5N2I1Njc1OTZhMWY5ZDc3NSIsImVtYWlsIjoiYWxhYUBnbWFpbC5jb20iLCJpYXQiOjE3MTU1Nzg0MDMsImV4cCI6MTcxNTY2NDgwM30.zof93R3JcHGJNzqdDxtK3MsoKSsLAMw8b36Xrqmord8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Omar\",\r\n    \"email\":\"o@gmail.com\",\r\n    \"password\":\"u1\",\r\n    \"age\":18\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/restaurants/search?name=Cheeseburger",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"restaurants",
+								"search"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Cheeseburger"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add to resaurant",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "Route__eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NDFhNTY5N2I1Njc1OTZhMWY5ZDc3NSIsImVtYWlsIjoiYWxhYUBnbWFpbC5jb20iLCJpYXQiOjE3MTU1Nzg0MDMsImV4cCI6MTcxNTY2NDgwM30.zof93R3JcHGJNzqdDxtK3MsoKSsLAMw8b36Xrqmord8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:4000/restaurants/products"
+					},
+					"response": []
+				},
+				{
+					"name": "distance",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "Route__eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NDFhNTY5N2I1Njc1OTZhMWY5ZDc3NSIsImVtYWlsIjoiYWxhYUBnbWFpbC5jb20iLCJpYXQiOjE3MTU1Nzg0MDMsImV4cCI6MTcxNTY2NDgwM30.zof93R3JcHGJNzqdDxtK3MsoKSsLAMw8b36Xrqmord8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:4000/restaurants/distance/6641a9fdafc33df199a046a1"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
